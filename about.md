@@ -18,9 +18,13 @@ title: About
     <br><br>
     Espero que le sea entretenido, querido lector, y también que sirva de algo el leer esto,
     ya sea para no sentirse solxs o simplemente pasar el rato.
-    
-  <strong><span class="underline">Este texto cambia cuando yo cambio.
-  Esto no es un manifiesto ni un diario, es simplemente una extensión de mi mente
-  Una amalgama que va cambiando de forma.</span></strong>
+  <div
+<strong>
+  <span class="underline-wavy">
+    Este texto cambia cuando yo cambio.
+    Esto no es un manifiesto ni un diario, es simplemente una extensión de mi mente.
+    Una amalgama que va cambiando de forma.
+  </span>
+</strong>
   </div>
 </div>
