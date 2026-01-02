@@ -18,6 +18,6 @@ title: About
     <br><br>
     Espero que le sea entretenido, querido lector, y también que sirva de algo el leer esto,
     ya sea para no sentirse solxs o simplemente pasar el rato.
-     **Este texto cambia cuando yo cambio.**
+    **Este texto cambia cuando yo cambio.**
   </div>
 </div>
