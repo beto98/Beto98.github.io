@@ -128,3 +128,36 @@ html[data-theme="dark"] .container {
   text-underline-offset: 7px;
   text-decoration-thickness: 1.2px;
 }
+
+.page-content {
+  max-width: 720px;
+  margin: 48px auto;
+  padding: 36px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 18px;
+  font-family: "Libre Baskerville", "Georgia", serif;
+  color: #2f2a33;
+  line-height: 1.75;
+  box-shadow:
+    0 20px 40px rgba(160, 120, 200, 0.15),
+    inset 0 0 0 1px rgba(200, 170, 230, 0.3);
+  backdrop-filter: blur(6px);
+}
+
+.page-content a {
+  color: #b26ad8;
+  text-decoration: none;
+}
+
+.page-content hr {
+  border: none;
+  text-align: center;
+  margin: 28px 0;
+}
+
+.page-content hr::after {
+  content: "♡";
+  font-size: 1.4rem;
+  color: #d18ce0;
+  opacity: 0.8;
+}
