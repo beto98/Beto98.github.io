@@ -120,3 +120,11 @@ html[data-theme="dark"] .container {
   background-color: #120c16 !important;
   background-image: linear-gradient(180deg, #120c16, #1a1222) !important;
 }
+
+.underline-wavy {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgba(214, 168, 231, 0.65);
+  text-underline-offset: 7px;
+  text-decoration-thickness: 1.2px;
+}
