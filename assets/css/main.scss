@@ -6,28 +6,43 @@
 @import "syntax";
 
 /* ================================
-   🌸 DAY MODE — Girly / Substack
-   (estado normal del tema)
+   🌸 BASE STYLE — Girly / Substack
    ================================ */
 
 html,
 body {
-  background: linear-gradient(180deg, #fdf6fb, #f7f3ff) !important;
-  color: #2f2a33 !important;
+  background: linear-gradient(180deg, #fdf6fb, #f7f3ff);
+  color: #2f2a33;
   font-family: "Libre Baskerville", Georgia, serif;
 }
 
+/* Links */
 a {
-  color: #b26ad8 !important;
+  color: #b26ad8;
+  text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+/* Post container */
 .post,
 .post-body,
 .content {
-  background: rgba(255, 255, 255, 0.94) !important;
-  box-shadow: 0 20px 40px rgba(160, 120, 200, 0.15) !important;
+  background: rgba(255, 255, 255, 0.94);
+  padding: 2.5rem;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(160, 120, 200, 0.15);
 }
 
+/* Titles */
+h1, h2, h3 {
+  font-family: "Libre Baskerville", Georgia, serif;
+  letter-spacing: 0.02em;
+}
+
+/* Decorative separator before posts */
 .post::before {
   content: "♡";
   display: block;
@@ -37,36 +52,30 @@ a {
   margin-bottom: 20px;
 }
 
-
-/* ================================
-   🦇 NIGHT MODE — Tumblr / Pastel-Goth
-   (Moonwalk dark mode REAL)
-   ================================ */
-
-html[data-theme="dark"],
-html[data-theme="dark"] body {
-  background: linear-gradient(180deg, #141018, #1b1422) !important;
-  color: #e7e1ee !important;
+/* Quotes — very Tumblr */
+blockquote {
+  border-left: 3px solid #e3b7f2;
+  padding-left: 1rem;
+  color: #6a5a75;
+  font-style: italic;
+  background: rgba(240, 225, 255, 0.4);
+  border-radius: 8px;
 }
 
-html[data-theme="dark"] a {
-  color: #d7a6ff !important;
+/* Lists */
+ul, ol {
+  padding-left: 1.4rem;
 }
 
-html[data-theme="dark"] .post,
-html[data-theme="dark"] .post-body,
-html[data-theme="dark"] .content {
-  background: rgba(28, 22, 36, 0.96) !important;
-  box-shadow: 0 20px 40px rgba(120, 80, 160, 0.35) !important;
-}
-
-html[data-theme="dark"] .post::before {
-  content: "✧";
-  color: #cfa3ff;
-}
-
-html[data-theme="dark"] h1,
-html[data-theme="dark"] h2,
-html[data-theme="dark"] h3 {
-  color: #f0eaff !important;
+/* Small details */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #d9b7ef,
+    transparent
+  );
+  margin: 3rem 0;
 }
