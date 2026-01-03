@@ -6,7 +6,7 @@ baseurl: ""
 description: >
   signal received, meaning pending ✦
 
-permalink: /:year/:month/:day/:title/
+permalink: /:slug/
 
 favicon: "./logo.png"
 
