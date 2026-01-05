@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Escritura, vulnerabilidad y agotamiento"
-tags: diary, escritura, vulnerabilidad
+tags: {diary, escritura, vulnerabilidad}
 ---
 
 Este es el inicio, o la continuación, de un proyecto enorme que he estado posponiendo y haciendo prueba y error desde hace muchos años.
